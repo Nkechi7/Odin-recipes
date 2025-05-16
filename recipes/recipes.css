@@ -1,0 +1,87 @@
+ html, body {
+      background-color: #fdfaf6;
+      height: 100%;
+      margin: 0;
+    }
+h1,h2,h3{
+    font-family: 'Merriweather', serif;
+}
+p{
+   text-align: center;
+   margin: 0 auto;
+   line-height: 1.8;
+   padding: 1 rem;
+   max-width: 500px;
+}
+.head-1{
+    text-align:center;
+    padding-top: 20px;
+}
+
+.imgcon{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding:10px 50px ;
+}
+
+.recipe-img {
+  width: 100%;
+  max-width: 3000px;      
+  height: 350px;          
+  object-fit: cover;      
+  border-radius: 2rem;    
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+.description{
+ text-align: center;
+ padding-top: 10px;
+}
+.ingredients, .steps{
+  display: flex;
+  justify-content: space-between;  
+  align-items: flex-start;
+  max-width: 1000px;
+  margin: 0 auto;                
+  padding: 1.5rem;
+}
+.ing,.step{
+    margin-left: 50px;
+    padding-top: 100px;   
+}
+.img-ingredients{
+    margin-top: 100px;
+    width: 300px;
+    height: auto;
+    border-radius: 20px;
+}
+.img-steps{
+    margin-left: 50px;
+    width: 240px;
+    height: auto;
+    border-radius: 20px; 
+}
+
+.butt{
+    text-align: center;
+    padding:20px 30px;
+}
+.custom-btn {
+  background-color: #6a994e;
+  border: none;
+  padding: 0.4rem 1.2rem;
+  border-radius: 40px;
+  font-size: 1rem;
+  font-family: 'Poppins', sans-serif;
+} 
+
+.custom-btn:hover {
+  background-color: #52734d;
+
+}
+
+.link{
+    color: white;
+   
+}
+
